@@ -1,0 +1,49 @@
+
+.main{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.card-container {
+    display: grid;
+    width: 550px;
+    height: 440px;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    grid-gap: 5px;
+    align-items: stretch;
+    background-color: black;
+}
+.card {
+    position: relative;
+    background-color: orange;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.number{
+    position: absolute;
+    font-size: 30px;
+
+}
+.img{
+    background-color: blueviolet;
+    width: 100px;
+    height: 100px;
+    
+}
+#score {
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin: 10px;
+    margin-top: 0px;
+}
